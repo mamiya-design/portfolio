@@ -1,59 +1,66 @@
 @charset "UTF-8";
 
 body{
-    background: rgb(246, 239, 233);
-    font-family: sans-serif;
     max-width: 400px;
     margin: 0 auto;
+    font-family: "Note Serif JP", serif;
+    background: #fdf8f5;
 }
 header{
     text-align: center;
+    margin: 40px 0;
 }
 .fv h2{
-    margin-top: 3rem;
-    font-size: 30px;
-    color: rgb(65, 53, 53);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 .fv p{
-    line-height: 1.7;
-    font-size: 16px;
-    color: rgb(62, 61, 61);
+    font-size: 14px;
+    color: #666;
 }
 
-.menu{
-    margin-top: 5rem;
-    text-align: center;
+section{
+    background: #fdecef;
+    margin: 20px 10px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 10px;
 }
-.menu h2{
-    font-size: 20px;
-    line-height: 1.7;
-    margin-top: -5px;
-}
-.menu-card h2{
-    font-size: 25px;
+h2{
+    font-size: 18px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
-.menu img{
-    width: 90%;
-    margin-top: 1rem;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+ul{
+    padding-left: 20px;
 }
-.menu-text{
-    font-size: 13px;
+li{
+    margin-bottom: 5px;
 }
-.price{
-    margin-top: -15px;
-    margin-bottom: 2rem;
-    color:rgb(62, 61, 61);
-}
-
-
-.location{
+.image{
     text-align: center;
-    margin-top: 5rem;
-    background: white;
-    border-radius: 15px;
+    background: none;
+}
+.image img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+}
+.cta{
+    text-align: center;
+    background: none;
+}
+button{
+    width: 100%;
     padding: 15px;
-    margin-bottom: 5rem;
+    background: #e88a9a;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
